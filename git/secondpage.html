@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aswin Devraj</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/secondstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@200&display=swap" rel="stylesheet">
+<!-- JS, Popper.js, and jQuery -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/0cc71a6eb9.js" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="wrapper">
+        <div id="heading">
+            <h1>aswin Devraj</h1>
+            <p>photography</p>
+        </div>
+        <nav class="navbar navbar-expand">
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a href="index.html" class="nav-link">home</a></li>
+              <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">portfolio</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="bridal.html">Bridal</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="model.html">Model</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+                  <a href="about.html" class="nav-link">about</a></li>
+              <li class="nav-itam">
+                  <a href="contact.html" class="nav-link">contact</a></li>
+            </ul>
+          </div>
+       
+        </nav>
+        <hr class="hr1">
+        <div id="subnav">
+            <a href="bridal.html">bridal</a>
+            <a href="#">model</a>
+            
+        </div>
+        
+        <hr class="hr2">
+        <div id="bgcolor">
+            <div id="image-section">
+                <div class="carousel-container">
+                    <i class="fa fa-chevron-circle-left" aria-hidden="true" id="prvBtn"></i>
+                    <i class="fa fa-chevron-circle-right" aria-hidden="true" id="nxtBtn"></i>
+                    <div class="carousel-slide">
+                        <img src="./images/model/DSC07380.jpg" id="lastClone" width="500px" height="auto">
+                        <img src="./images/bridal/_DSC0055.jpg" width="500px" height="auto">
+                        <img src="./images/bridal/DSC07599.jpg" width="500px" height="auto">
+                        <img src="./images/bridal/DSC07660.jpg" width="500px" height="auto">
+                        <img src="./images/bridal/DSC08259.jpg" width="500px" height="auto">
+                        <img src="./images/bridal/DSC09025.jpg" width="500px" height="auto">
+                        <img src="./images/model/DSC03516.jpg" width="500px" height="auto">
+                        <img src="./images/model/DSC06922.jpg" width="500px" height="auto">
+                        <img src="./images/model/DSC06954.jpg" width="500px" height="auto">
+                        <img src="./images/model/DSC07380.jpg" alt="" width="500px" height="auto">
+                        <img src="./images/bridal/_DSC0055.jpg" id="firstClone" width="500px" height="auto">
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="thumbnail.html" id="allphoto">view thumbnail</a>
+        <hr class="hr3">
+        <section id="lastsection">
+            <h2>stay in the loop</h2>
+            <P>Subscribe to my newsletter to learn about studio specials, gallery showings, charity events, photography tips, and more!</P>
+            <form id="form2">
+                <input type="text" id="firstname" placeholder="firstname" required>
+                <input type="text" id="lastname" placeholder="lastname" required>
+                <input type="email" id="email" placeholder="email id" required>
+                <input type="submit" id="submit" value="sign up">
+
+            </form>
+        </section>
+        
+    
+
+        
+    </div>
+    <script src="js/second.js"></script>
+</body>
+</html>

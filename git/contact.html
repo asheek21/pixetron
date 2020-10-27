@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aswin Devraj</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+<!-- JS, Popper.js, and jQuery -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/0cc71a6eb9.js" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+   <script defer src="js/contact.js"></script>
+</head>
+<body>
+    <div id="error"></div>
+    <div id="wrapper">
+        <div id="heading">
+            <h1>aswin Devraj</h1>
+            <p>photography</p>
+        </div>
+        <nav class="navbar navbar-expand">
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a href="index.html" class="nav-link">home</a></li>
+              <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" href="secondpage.html">portfolio</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="bridal.html">Bridal</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="model.html">Model</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+                  <a href="about.html" class="nav-link">about</a></li>
+              <li class="nav-itam">
+                  <a href="contact.html" class="nav-link">contact</a></li>
+            </ul>
+          </div>
+         </nav>
+         <hr class="hr1">
+         <div id="aboutimage">
+             <img src="./snippets/images/DSC07512.JPG" id="aboutimg1">
+         </div>
+         <h2>contact</h2>
+         <div id="paragraphs">
+             <p>Have a question?</p>
+             <p>Thinking about booking a private session?</p>
+             <p>Please do not hesitate to reach out for any reason -- email, call, text, or just fill out the form below and hit "submit".</p>
+             <p>email: aswinpdevraj03@gmail.com</p>
+             
+         </div>
+
+         <div id="form-section">
+             <form id="formcontact" action="/" method="GET">
+                 <label for="name" class="labels">name*</label><br>
+                 <div id="namesection">
+                    <input type="text" id="fname" required><br> 
+                    <input type="text" id="lname" required><br> 
+                    
+                 </div>
+                 <div id="lafname">
+                    <label for="fname">firstname</label>
+                    <label for="lname" class="lastname">lastname</label>
+                 </div>
+                 <label for="email" class="labels">email address*</label><br>
+                 <input type="email" id="email" required><br>
+                 <label for="phone" class="labels">phone*</label><br>
+                 <input type="tel" id="phone" required pattern="[789][0-9]{9}"><br>
+                 <label for="subject" class="labels">subject*</label><br>
+                 <input type="text" id="subject" required><br>
+                 <label for="message" class="labels">message*</label><br>
+                 <input type="text" id="message" required placeholder="enter your message here!!!"><br>
+
+                 <button type="submit">submit</button>
+
+                 
+             </form>
+            </div>
+            <hr class="hr3">
+            <div class="formbg">
+                <section id="lastsection">
+                    <h3>stay in the loop</h3>
+                    <P>Subscribe to my newsletter to learn about studio specials, gallery showings, charity events, photography tips, and more!</P>
+                    <form id="form2">
+                        <input type="text" id="firstname" placeholder="firstname" required>
+                        <input type="text" id="lastname" placeholder="lastname" required>
+                        <input type="email" id="email" placeholder="email id" required>
+                        <input type="submit" id="submit" value="sign up">
+        
+                    </form>
+              </div>
+
+         
+
+    </div>
+        
+    </body>
+    </html>
