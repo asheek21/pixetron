@@ -1,0 +1,183 @@
+#wrapper{
+    margin:0 200px 200px 200px;
+}
+#heading{
+    
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+   
+}
+nav li{
+    padding-right: 80px;
+    
+}
+nav{
+    position: relative;
+    left: 300px;
+}
+nav a{
+    color: black;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-family: 'Piazzolla', serif;
+}
+.hr1{
+    border-top: 1px solid black;
+    width: 75%;
+    margin-top: -10px;
+}
+.hr2{
+    border-top: 1px solid black;
+    width: 75%;
+    margin-top: 70px;
+}
+.hr3{
+    border-top: 1px solid black;
+    width: 75%;
+    margin-top: 100px; 
+}
+#subnav a{
+    color: black;
+    font-size: 1.4rem;
+    font-family: 'Piazzolla', serif;
+    position: relative;
+    left: 430px;
+    top: 30px;
+    padding-right: 150px;
+    font-weight: 400;
+    text-transform: capitalize;
+   }
+#subnav a:hover{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+/*image*/
+#aboutimg1{
+    width: 80%;
+    height: 300px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+/*paragraphs*/
+h2{
+    text-align: center;
+    margin-top: 50px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+#paragraphs{
+    text-align: center;
+    margin-top: 30px;
+    line-height: 2.3rem;
+    font-size: 1.3rem;
+}
+#paragraphs p{
+    color: rgb(113, 114, 117);
+    text-transform: capitalize;
+}
+
+/*form*/
+#form-section{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#namesection{
+    display: flex;
+}
+
+.labels{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+#fname,#lname{
+    width: 50%;
+    
+    padding: 10px;
+
+
+}
+#fname{
+    margin-right: 8px;
+}
+#lafname{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.lastname{
+    text-align: left;
+    position: relative;
+    right: 490px;
+}
+#email{
+    width: 100%;
+    
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+#phone{
+    width: 50%;
+    
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#subject{
+    width: 100%;
+    
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#message{
+    width: 100%;
+   
+    padding-bottom: 80px;
+    margin-bottom: 10px;
+}
+button{
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+
+}
+button:hover{
+    background-color: rgb(77, 84, 79);
+}
+/*last section*/
+
+#lastsection{
+    position: relative;
+    left: 130px;
+}
+#lastsection h3{
+    
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 2.3rem;
+    position: relative;
+    left: 300px;
+}
+#lastsection p{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+#form2 input{
+    width: 230px;
+    padding: 10px;
+}
+#submit{
+    width: 100px !important;
+    background-color: black;
+    color:white;
+    text-transform: uppercase;
+}
+
